@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #23252C;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+main {
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 287px;
+  background-color: black;
+  color: white;
+  border-radius: 1rem;
+}
+
+img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: .8rem 0;
+}
+
+h1,h2,h3,h4,h5 {
+  margin: 0;
+  padding: .2rem;
+}
+
+h4 {
+  color: orange;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  font-size: .9rem;
+  text-transform: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.buttons {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+  font-size: 1.25rem;
+  margin: 0 .5rem;
+  padding: .5rem 1.5rem;
+  border-radius: .5rem;
+}
+
+#email, #email a {
+  background-color: white;
+  color: black;
+}
+
+#email {
+  border: 1px solid #D1D5D8;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+#linkedin {
+  background: #5093E2;
+  color: white;
+  border: 1px solid #5093E2;
+}
+
+.info {
+  padding: .5rem 1.5rem;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .5rem;
+  border-top: 2px solid #D1D5D8;
+}
+.socials-link {
+  padding: 5px;
+}
+
+.icon-twitter, .icon-github {
+  background: white;
+  color: black;
+  height: 28px;
+}
