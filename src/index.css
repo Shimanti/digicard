@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #23252C;
+  background-color: #f1f5f8;
   /* margin: 0; */
   font-family: "Roboto", sans-serif;
   text-transform: capitalize;
@@ -11,15 +11,15 @@ body {
 }
 
 main {
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .container {
-  width: 375px;
-  margin: 0 auto;
+  width: 350px;
+  margin: 5% auto;
   background-color: black;
   color: white;
   border-radius: 1rem;
