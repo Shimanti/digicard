@@ -18,11 +18,11 @@ export default function App() {
         </div>
         <article className="info">
           <h3>about</h3>
-          <p>I am a frontend developer with a particular interest in making things simple and beautiful. I keep up with new best practices and love to learn new things.</p>
+          <p>I am a frontend developer with a particular interest in making things simple and beautiful. </p>
         </article>
         <article className="info">
           <h3>interests</h3>
-          <p>Avid Reader. Easy food prep. Travel geek. Pop culture ninja. Entrepreneur.</p>
+          <p>Avid reader. Easy-to-make food connoiseur. Travel geek. Pop culture ninja. Entrepreneur.</p>
         </article>
         <footer>
           <div className="socials">
