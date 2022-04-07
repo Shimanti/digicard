@@ -1,4 +1,5 @@
 import React from "react"
+import { FaLinkedin } from 'react-icons/fa';
 
 export default function App() {
   return (
@@ -8,13 +9,17 @@ export default function App() {
             <img src="./images/glasses.jpeg" alt="self"/>
             <div className="center">
               <h1>Shimanti Guha</h1>
-              <h4>frontend developer</h4>
+              <h4>software engineer</h4>
               <h5><a href="https://shimanti.com">shimanti.com</a></h5>
             </div>
         </header>
         <div className="buttons center">
           <button id="email"><a href="mailto:shimanti@gmail.com" rel="noreferrer" target="_blank">email</a></button>
-          <button id="linkedin"><a href="https://www.linkedin.com/in/shimantiguha/" target="_blank" rel="noreferrer">linkedin</a></button>
+          <button id="linkedin">
+            <a href="https://www.linkedin.com/in/shimantiguha/" target="_blank" rel="noreferrer">
+              <FaLinkedin />
+              linkedin
+            </a></button>
         </div>
         <article className="info">
           <h3>about</h3>
