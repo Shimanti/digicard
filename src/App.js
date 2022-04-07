@@ -1,5 +1,5 @@
 import React from "react"
-import { GrLinkedin } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 
 export default function App() {
   return (
@@ -17,7 +17,7 @@ export default function App() {
           <button id="email"><a href="mailto:shimanti@gmail.com" rel="noreferrer" target="_blank">email</a></button>
           <button id="linkedin">
             <a href="https://www.linkedin.com/in/shimantiguha/" target="_blank" rel="noreferrer">
-              <GrLinkedin />
+              <FaLinkedin />
               linkedin
             </a></button>
         </div>
