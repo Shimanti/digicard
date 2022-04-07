@@ -1,5 +1,5 @@
 import React from "react"
-import { FaChevronLeft, FaChevronRight, FaQuoteRight } from 'react-icons/fa';
+import { GrLinkedin } from 'react-icons/fa';
 
 export default function App() {
   return (
