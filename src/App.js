@@ -1,5 +1,5 @@
 import React from "react"
-import { FaLinkedin } from 'react-icons/fa';
+import { FaAddressCard, FaLinkedin } from 'react-icons/fa';
 
 export default function App() {
   return (
@@ -14,11 +14,13 @@ export default function App() {
             </div>
         </header>
         <div className="buttons center">
-          <button id="email"><a href="mailto:shimanti@gmail.com" rel="noreferrer" target="_blank">email</a></button>
+          <button id="email">
+            <a href="mailto:shimanti@gmail.com" rel="noreferrer" target="_blank">
+              <FaAddressCard /> email
+            </a></button>
           <button id="linkedin">
             <a href="https://www.linkedin.com/in/shimantiguha/" target="_blank" rel="noreferrer">
-              <FaLinkedin />
-              linkedin
+              <FaLinkedin /> linkedin
             </a></button>
         </div>
         <article className="info">
