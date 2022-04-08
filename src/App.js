@@ -25,7 +25,7 @@ export default function App() {
         </div>
         <article className="info">
           <h3>about</h3>
-          <p>I am a frontend developer with a particular interest in making things simple and beautiful. </p>
+          <p>I am a full stack developer with a particular interest in making things simple and beautiful. </p>
         </article>
         <article className="info">
           <h3>interests</h3>
